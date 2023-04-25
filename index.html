@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <!-- <script src="https://kit.fontawesome.com/89a14a4c2c.js" crossorigin="anonymous"></script> -->
+    <title>Technical documentation</title>
+</head>
+
+
+<body>
+
+    <!-- <a href="#navbar"><i class="fa-solid fa-up-long"></i></a> -->
+    <nav id="navbar">
+        <header>HTML Technical documentation</header>
+
+        <ul>
+            <li><a href="#HTML_Introduction" class="nav-link">HTML Introduction</a></li>
+            <li><a href="#HTML_Basic_Examples" class="nav-link">HTML Basic Examples</a></li>
+            <li><a href="#HTML_Headings" class="nav-link">HTML Headings</a></li>
+            <li><a href="#HTML_Paragraphs" class="nav-link">HTML Paragraphs</a></li>
+            <li><a href="#HTML_Head_Element" class="nav-link">HTML Head Element</a></li>
+
+
+        </ul>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="HTML_Introduction">
+            <header class="section-title">HTML Introduction</header>
+
+            <h3 class="section_part">What is HTML?</h3>
+
+            <ul>
+                <li>HTML stands for Hyper Text Markup Language</li>
+                <li>HTML is the standard markup language for creating Web pages</li>
+                <li>HTML describes the structure of a Web page</li>
+                <li>HTML consists of a series of elements</li>
+                <li>HTML elements tell the browser how to display the content</li>
+                <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this
+                    is a
+                    link", etc.</li>
+            </ul>
+
+            <h3 class="section_part">A Simple HTML Document</h3>
+            <div class="example">
+                <span>Example</span>
+                <div class="example-content">
+                    <pre>
+                        <code >&lt;!DOCTYPE html&gt;
+                    &lt;html&gt;
+                    &lt;head&gt;
+                    &lt;title&gt;Page Title&lt;/title&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                    
+                    &lt;h1&gt;My First Heading&lt;/h1&gt;
+                    &lt;p&gt;My first paragraph.&lt;/p&gt;
+                    
+                    &lt;/body&gt;
+                    &lt;/html&gt;
+                </code>
+                </pre>
+                </div>
+                <div class="a-container"><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_intro"
+                        target="_blank">Try it yourself</a></div>
+            </div>
+        </section>
+        <hr>
+        <section class="main-section" id="HTML_Basic_Examples">
+            <header class="section-title">HTML Basic Examples</header>
+
+            <p>In this chapter we will show some basic HTML examples.
+
+                Don't worry if we use tags you have not learned about yet</p>
+            <h3 class="section_part">HTML Documents</h3>
+            <p>All HTML documents must start with a document type declaration: &lt;!DOCTYPE html&gt;.</p>
+            <p>The HTML document itself begins with &lt;html&gt; and ends with &lt;/html&gt;.</p>
+            <p>The visible part of the HTML document is between &lt;body&gt; and &lt;/body&gt;.</p>
+            <div class="example">
+                <span>Example</span>
+                <div class="example-content">
+                    <pre>&lt;!DOCTYPE html&gt;
+                    &lt;html&gt;
+                    &lt;head&gt;
+                    &lt;title&gt;Page Title&lt;/title&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                    
+                    &lt;h1&gt;My First Heading&lt;/h1&gt;
+                    &lt;p&gt;My first paragraph.&lt;/p&gt;
+                    
+                    &lt;/body&gt;
+                    &lt;/html&gt;
+                </pre>
+                </div>
+                <div class="a-container"><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_intro"
+                        target="_blank">Try it yourself</a></div>
+            </div>
+            <h3 class="section_part"> The &lt;!DOCTYPE> Declaration&gt;</h3>
+            <p>The &lt;!DOCTYPE&gt; declaration represents the document type, and helps browsers to display web pages
+                correctly.</p>
+            <p>It must only appear once, at the top of the page (before any HTML tags).</p>
+            <p>The &lt;!DOCTYPE&gt; declaration is not case sensitive.</p>
+            <p>The &lt;!DOCTYPE&gt; declaration for HTML5 is:</p>
+            <div class="example">
+                <div class="example-content">
+                    <code>&lt;!DOCTYPE html&gt;</code>
+                </div>
+
+            </div>
+
+
+        </section>
+        <hr>
+        <section class="main-section" id="HTML_Headings">
+            <header class="section-title">HTML Headings</header>
+            <p>HTML headings are titles or subtitles that you want to display on a webpage.</p>
+            <h3 class="section_part">Example</h3>
+
+            <div class="example">
+                <span>Example</span>
+                <div class="example-content">
+                    <h1>Heading 1</h1>
+                    <h2>Heading 2</h2>
+                    <h3>Heading 3</h3>
+                    <h4>Heading 4</h4>
+                    <h5>Heading 5</h5>
+                    <h6>Heading 6</h6>
+                </div>
+                <div class="a-container"><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_headings"
+                        target="_blank">Try it yourself</a></div>
+            </div>
+        </section>
+        <hr>
+
+        <section class="main-section" id="HTML_Paragraphs">
+            <header class="section-title">HTML Paragraphs</header>
+
+            <p>A paragraph always starts on a new line, and is usually a block of text.</p>
+
+            <h3 class="section_part">HTML Paragraphs</h3>
+            <p>The HTML &lt;p&gt; element defines a paragraph.</p>
+            <p>A paragraph always starts on a new line, and browsers automatically add some white space (a margin)
+                before and after a paragraph.</p>
+
+            <div class="example">
+                <span>Example</span>
+                <div class="example-content">
+                    <pre>&lt;p&gt;This is a paragraph.&lt;/p&gt;
+  &lt;p&gt;This is another paragraph.&lt;/p&gt;</pre>
+                </div>
+                <div class="a-container"><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_paragraphs"
+                        target="_blank">Try it yourself</a></div>
+            </div>
+
+            <h3 class="section_part">HTML Display</h3>
+            <p>You cannot be sure how HTML will be displayed.</p>
+            <p>Large or small screens, and resized windows will create different results.</p>
+            <p>With HTML, you cannot change the display by adding extra spaces or extra lines in your HTML code.</p>
+            <p>The browser will automatically remove any extra spaces and lines when the page is displayed:</p>
+
+            <div class="example">
+                <span>Example</span>
+                <div class="example-content">
+                    <pre>&lt;p&gt;
+                        This paragraph
+                        contains a lot of lines
+                        in the source code,
+                        but the browser
+                        ignores it.
+                        &lt;/p&gt;
+                        
+                        &lt;p&gt;
+                        This paragraph
+                        contains         a lot of spaces
+                        in the source         code,
+                        but the        browser
+                        ignores it.
+                        &lt;/p&gt;
+                       </pre>
+                </div>
+                <div class="a-container"><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_paragraphs2"
+                        target="_blank">Try it yourself</a></div>
+            </div>
+        </section>
+        <hr>
+
+        <section class="main-section" id="HTML_Head_Element">
+            <header class="section-title">HTML Head Element</header>
+            <p>The HTML <code>&lt;head&gt;</code> element is a container for the following elements:
+                <code>&lt;title&gt;</code>, <code>&lt;style&gt;</code>, <code>&lt;meta&gt;</code>,
+                <code>&lt;link&gt;</code>, <code>&lt;script&gt;</code>, and <code>&lt;base&gt;</code>.
+            </p>
+            <h3 class="section_part">The HTML &lt;head&gt; Element</h3>
+            <p>The <code>&lt;head&gt;</code> element is a container for metadata (data about data) and is placed between
+                the <code>&lt;html&gt;</code> tag and the <code>&lt;body&gt;</code> tag.</p>
+            <p>HTML metadata is data about the HTML document. Metadata is not displayed.</p>
+            <p>Metadata typically define the document title, character set, styles, scripts, and other meta information.
+            </p>
+            <h3 class="section_part">The HTML &lt;title&gt; Element</h3>
+            <p>The <code>&lt;title&gt;</code> element defines the title of the document. The title must be text-only,
+                and it is shown in the browser's title bar or in the page's tab.</p>
+            <p>The <code>&lt;title&gt;</code> element is required in HTML documents!</p>
+            <p>The content of a page title is very important for search engine optimization (SEO)! The page title is
+                used by search engine algorithms to decide the order when listing pages in search results.</p>
+            <p>The <code>&lt;title&gt;</code> element:</p>
+            <ul>
+                <li>defines a title in the browser toolbar</li>
+                <li>provides a title for the page when it is added to favorites</li>
+                <li>displays a title for the page in search engine-results</li>
+            </ul>
+            <p>So, try to make the title as accurate and meaningful as possible!</p>
+            <p>A simple HTML document:</p>
+            <div class="example">
+                <div class="example-content">
+                    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;A Meaningful Page Title&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+The content of the document......
+&lt;/body&gt;
+&lt;/html&gt;
+</code>             </pre>
+                </div>
+                <div class="a-container"><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_head_title"
+                        target="_blank">Try it yourself</a></div>
+
+            </div>
+        </section>
+    </main>
+   
+</body>
+
+</html>
+
+
+
+
+
